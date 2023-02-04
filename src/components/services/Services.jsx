@@ -2,9 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='sevices'>Services</section>
   )
 }
 
