@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { icons } from 'react-icons'
+// import { icons } from 'react-icons'
 import './navbar.css'
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { BiBook } from "react-icons/bi"
