@@ -7,6 +7,7 @@ header {
 .header_container {
     text-align: center;
     height: 100%;
+    /* position: absolute; */
     position: relative;
 }
 
@@ -19,7 +20,7 @@ header {
      justify-content: center;
     }
     
-/* Addind style on Socials on header */
+/* Adding style on Socials on header */
 
 .header_socials {
     display: flex;
@@ -38,19 +39,21 @@ header {
     background: var(--color-primary);
 }
 
-/* Addind style on PHOTOME */
+/* Addind style on my header photo */
 
 .me {
     /* background: var(--color-primary); */
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 16rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    /* left: calc(50% - 10rem); */
+    left: 50%;
+    transform: translate(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1rem 1.5rem 1.5rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* Scroll down line */
