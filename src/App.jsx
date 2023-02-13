@@ -13,13 +13,13 @@ import Testimonials from './components/testimonials/Testimonials'
 const App = () => {
   return (
     <>
-      <Header />
-      <Navbar />
-      <About />
+      {/* <Header /> */}
+      {/* <Navbar /> */}
+      {/* <About /> */}
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contacts />
       <Footer />
     </>
