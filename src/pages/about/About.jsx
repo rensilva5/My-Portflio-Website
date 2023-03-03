@@ -1,7 +1,9 @@
 import React from "react";
 import "./about.css";
 // import { icons } from 'react-icons'
-import ME from "../../assets/me-about.jpg";
+// import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/canterbury.jpeg";
+// import ME from "../../assets/me-aboutME.jpg";
 import { BsAward } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -36,12 +38,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            explicabo totam sit mollitia, obcaecati quidem nisi at illo laborum,
-            eos qui quibusdam! Obcaecati sunt enim, ratione nulla delectus
-            accusantium minus.
+            A software developer seeking for a team work environment, and with
+            passion for learning and creating.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

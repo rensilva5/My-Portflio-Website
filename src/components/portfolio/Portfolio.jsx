@@ -1,52 +1,52 @@
 import React from "react";
 import "./portfolio.css";
-import img1 from '../../assets/portfolio1.jpg'
-import img2 from '../../assets/portfolio2.jpg'
-import img3 from '../../assets/portfolio3.jpg'
-import img4 from '../../assets/portfolio4.jpg'
+import img1 from '../../assets/portfolio1.png'
+import img2 from '../../assets/portfolio2.png'
+import img3 from '../../assets/portfolio3.png'
+import img4 from '../../assets/portfolio4.png'
 import img5 from '../../assets/portfolio5.png'
-import img6 from '../../assets/portfolio6.jpg'
+import img6 from '../../assets/portfolio6.png'
 
 const data = [
   {
     id: 1,
     image: img1,
-    title: 'The constant climate change',
+    title: 'My Personal Portfolio',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-finantial-data-visualication'
   },
   {
     id: 2,
     image: img2,
-    title: 'Currency and crypto',
+    title: 'Europe Planner',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-template-infographics-in-Figma'
   },
   {
     id: 3,
     image: img3,
-    title: 'The constant climate change',
+    title: 'Blog-Website',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
   },
   {
     id: 4,
     image: img4,
-    title: 'The climate in progress',
+    title: 'Personal Todo App',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/16955822-Maintaining-task-and-tracking-progress'
   },
   {
     id: 5,
     image: img5,
-    title: 'Climate change',
+    title: 'Patient List',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-finantial-data-visualication'
   },
   {
     id: 6,
     image: img6,
-    title: 'New global change',
+    title: 'Ticket Tracker',
     github: 'https://github.com/rensilva5',
     demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-finantial-data-visualication'
   }

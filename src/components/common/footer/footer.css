@@ -1,9 +1,10 @@
 footer {
-    background: var(--color-primary);
-    padding: 3rem;
+    /* background: var(--color-primary); */
+    background: var(--color-light);
+    padding: 2.5rem;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 12rem;
 }
 
 footer a {
@@ -22,14 +23,15 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
+    font-weight: 600;
 }
 
 .footer_socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .footer_socials a {
@@ -48,7 +50,7 @@ footer a {
 }
 
 .footer_copyright {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     color: var(--color-bg);   
 }
 

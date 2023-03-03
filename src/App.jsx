@@ -1,27 +1,48 @@
 // rafce => to create a station functional component
 import React from 'react'
-import About from './components/about/About'
-import Contacts from './components/contacts/Contacts'
-import Experience from './components/experience/Experience'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import Navbar from './components/navbar/Navbar'
+import About from './pages/about/About'
+// import Contacts from './components/contacts/Contacts'
+// import Experience from './components/experience/Experience'
+import WorkExperience from './pages/workExperience/WorkExperience'
+// import Footer from './pages/footer/Footer'
+// import Header from './pages/header/Header'
+// import Navbar from './components/navbar/Navbar'
 import Portfolio from './components/portfolio/Portfolio'
-import Services from './components/services/Services'
-import Testimonials from './components/testimonials/Testimonials'
+// import Services from './components/services/Services'
+// import Testimonials from './components/testimonials/Testimonials'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NavbarCommon from './components/common/navbarCommon/NavbarCommon'
+import Home from './pages/Home'
+
 
 const App = () => {
   return (
-    <>
-      {/* <Header /> */}
-      <Navbar />
-      {/* <About /> */}
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testimonials />
-      <Contacts />
-      <Footer />
+      <>
+    <Router>
+    <NavbarCommon />
+      <Routes>
+        {/* <Route path='/' element={<Header/>}/> */}
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About/>}/>
+        {/* <Route path='/experience' element={<Experience/>}/> */}
+        <Route path='/workExperience' element={<WorkExperience/>}/>
+        {/* <Route path='/services' element={<Services/>}/> */}
+        <Route path='/portfolio' element={<Portfolio/>}/>
+        {/* <Route path='/testimonials' element={<Testimonials/>}/> */}
+        {/* <Route path='/contacts' element={<Contacts/>}/> */}
+        {/* <Route path='/footer' element={<Footer/>}/> */}
+      </Routes>
+       {/* <Navbar /> */}
+    {/* <Home /> */}
+    </Router>
+       {/* <Header /> */}
+       {/* <About /> */}
+       {/* <Experience /> */}
+       {/* <Services /> */}
+       {/* <Portfolio /> */}
+       {/* <Testimonials /> */}
+       {/* <Contacts /> */}
+       {/* <Footer /> */}
     </>
   )
 }
