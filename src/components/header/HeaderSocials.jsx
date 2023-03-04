@@ -7,9 +7,8 @@ const HeaderSocials = () => {
     <div className='header_socials'>
         <a href="https://www.linkedin.com/in/renzo-silva/" target="_blank"><BsLinkedin/></a>
         <a href="https://github.com/rensilva5" target="_blank"><FaGithub/></a>
-        {/* <a href="https://linkedin.com" target="_blank"></a> */}
     </div>
   )
 }
 
-export default HeaderSocials
+export default HeaderSocials;

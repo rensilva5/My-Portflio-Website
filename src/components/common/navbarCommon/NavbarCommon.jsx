@@ -26,10 +26,10 @@ const NavbarCommon = () => {
           {/* <AiOutlineHome /> */}
         Home
         </Link>
-        <Link to="/about" className="link">
+        {/* <Link to="/about" className="link"> */}
           {/* <AiOutlineUser /> */}
-        About
-        </Link>
+        {/* About */}
+        {/* </Link> */}
         <Link to="/portfolio" className="link">
           {/* <FaCode /> */}
         Projects

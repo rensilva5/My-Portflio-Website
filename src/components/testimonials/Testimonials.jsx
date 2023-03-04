@@ -1,3 +1,5 @@
+// Sample as if I a had testimonials / to use them in the future
+
 import React from 'react'
 import './testimonials.css'
 import avar1 from '../../assets/avatar1.jpg'
@@ -69,4 +71,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Testimonials;

@@ -17,8 +17,8 @@ const WorkExperience = () => {
           iconStyle={{ background: "white", color: "#3e497a" }}
           icon={<FaSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Ramdom school</h3>
-          <p>Inem JMS</p>
+          <h3 className="vertical-timeline-element-title">Boca Code</h3>
+          <p>Software Engineer</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -26,8 +26,8 @@ const WorkExperience = () => {
           iconStyle={{ background: "white", color: "#3e497a" }}
           icon={<FaSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Ramdom school</h3>
-          <p>Inem JMS</p>
+          <h3 className="vertical-timeline-element-title">Palm Beach State College</h3>
+          <p>Associate in Arts with Computer Science Minor</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -35,8 +35,8 @@ const WorkExperience = () => {
           iconStyle={{ background: "white", color: "#3e497a" }}
           icon={<FaSchool />}
         >
-          <h3 className="vertical-timeline-element-title">Ramdom school</h3>
-          <p>Inem JMS</p>
+          <h3 className="vertical-timeline-element-title">Inem High School</h3>
+          <p>Graduated as Science and Mathematics</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

@@ -1,3 +1,5 @@
+// Use this component in the future as I develope services
+
 import React from 'react'
 import { AiOutlineCheck } from 'react-icons/ai'
 import './services.css'
@@ -115,4 +117,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

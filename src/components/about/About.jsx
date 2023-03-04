@@ -1,7 +1,5 @@
 import React from "react";
 import "./about.css";
-// import { icons } from 'react-icons'
-// import ME from "../../assets/me-about.jpg";
 import ME from "../../assets/canterbury.jpeg";
 // import ME from "../../assets/me-aboutME.jpg";
 import { BsAward } from "react-icons/bs";
@@ -29,7 +27,7 @@ const About = () => {
             <article className="about_card">
               <FaUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>100+ US</small>
+              <small>150+ US</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
@@ -42,6 +40,7 @@ const About = () => {
             passion for learning and creating.
           </p>
           <a href="#contact" className="btn btn-primary">
+            {/* Needs routes to go to contact */}
             Let's Talk
           </a>
         </div>
