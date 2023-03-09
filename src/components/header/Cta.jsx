@@ -1,6 +1,7 @@
 import React from 'react'
 // import resume from "../../assets/resume.pdf"
-import resume from "../../assets/resume.pages"
+// import resume from "../../assets/resume.pages"
+import resume from '../../assets/renzo-silva-software-engineering.pdf'
 
 const Cta = () => {
   return (

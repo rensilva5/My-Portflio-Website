@@ -16,8 +16,8 @@ const Header = () => {
         <h5 className="text-light">Fullstack Developer</h5> */}
       {/* Call To Action */}
       <Cta />
-      <div class="hero-image">
-        <div class="hero-text">
+      <div className="hero-image">
+        <div className="hero-text">
           <h5>Hello, I am</h5>
           <h1>Renzo Silva</h1>
           <h5 className="text-light">Fullstack Developer</h5>

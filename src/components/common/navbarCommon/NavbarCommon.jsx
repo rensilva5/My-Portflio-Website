@@ -24,7 +24,8 @@ const NavbarCommon = () => {
       <div className="navbar-links">
         <Link to="/" className="link">
           {/* <AiOutlineHome /> */}
-        Home
+        <h4>Home</h4>
+        {/* Home */}
         </Link>
         {/* <Link to="/about" className="link"> */}
           {/* <AiOutlineUser /> */}
@@ -32,11 +33,11 @@ const NavbarCommon = () => {
         {/* </Link> */}
         <Link to="/portfolio" className="link">
           {/* <FaCode /> */}
-        Projects
+        <h4>Projects</h4>
         </Link>
-        <Link to="/WorkExperience" className="link">
+        <Link to="/workExperience" className="link">
           {/* <FaCode /> */}
-        Work Experience
+        <h4>Work Experience</h4>
         </Link>
       </div>
     </div>

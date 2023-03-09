@@ -15,14 +15,15 @@
   } */
 
 .navbar-links {
-    /* position: fixed; */
+    position: fixed;
+    top: 0px;
+    right: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
     background-color: hsl(194, 35%, 60%);;
     width: 100%;
-    /* height: 100%; */
     align-items: center;
     justify-content: center;
     /* Optional color as well */

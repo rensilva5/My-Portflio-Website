@@ -3,6 +3,7 @@ import "./portfolio.css";
 import img1 from "../../assets/portfolio1.png";
 import img2 from "../../assets/portfolio2.png";
 import img3 from "../../assets/portfolio3.png";
+import img4 from "../../assets/portfolio4.png";
 import img7 from "../../assets/portfolio7.png";
 import img5 from "../../assets/portfolio5.png";
 import img6 from "../../assets/portfolio6.png";
@@ -14,7 +15,15 @@ const data = [
     title: "My Personal Portfolio",
     description: "As a personal portfolio website, it showcases my professional work, achievements, and skills. It serves as an online portfolio that demonstrates my expertise and capabilities in my field of work display in several sections about me, my work experience, education, and skills.",
     github: "https://github.com/rensilva5/My-Portflio-Website",
-    // demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-finantial-data-visualication'
+    demo: 'https://renzosilva.dev/'
+  },
+  {
+    id: 7,
+    image: img7,  
+    title: "Chat App",
+    description: "This software application is designed for real-time communication between individuals. My Chat app allows users to exchange text messages; it can be accessed on smartphones, tablets, desktop computers, and other internet-enabled devices. My chat app requires users to create an account, which is linked to their email address.",
+    github: "https://github.com/rensilva5/chat-app-firebase",
+    demo: 'https://chat-app-firebase-topaz.vercel.app/'
   },
   {
     id: 2,
@@ -34,7 +43,7 @@ const data = [
   },
   {
     id: 4,
-    image: img7,
+    image: img4,
     title: "Personal Todo App",
     description: "My personal to-do app has been designed to help individuals manage their tasks, goals, and responsibilities. I provide a user-friendly interface that allows you to create a list of tasks or projects, set due dates, and track your progress towards completion.",
     github: "https://github.com/rensilva5/three-do-web",
@@ -58,6 +67,7 @@ const data = [
   },
 ];
 
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -67,7 +77,7 @@ const Portfolio = () => {
       <div className="container portfolio">
         {data.map(({ id, image, title, github, demo, description }) => {
           return (
-            <a href={demo} target="_blank">
+            <a href={demo} target="_blank" rel="noopener noreferrer" aria-label={`View ${title} live demo`}>
               <article key={id} className="portfolio_item">
                 <div className="portfolio_item-image">
                   <img src={image} alt={title} />
@@ -75,10 +85,10 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <h5>{description}</h5>
                 <div className="portfolio_item-cta">
-                  <a href={github} className="btn" target="_blank">
+                  <a href={github} className="btn" target="_blank" rel="noopener noreferrer" aria-label={`View ${title} source code on Github`}>
                     Github
                   </a>
-                  <a href={demo} className="btn btn-primary" target="_blank">
+                  <a href={demo} className="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label={`View ${title} live demo`}>
                     Live Demo
                   </a>
                 </div>
