@@ -1,11 +1,8 @@
 // rafce => to create a station functional component
 import React from 'react'
-// import About from './pages/about/About'
-// import Contacts from './components/contacts/Contacts'
 // import Experience from './components/experience/Experience'
 import WorkExperience from './pages/workExperience/WorkExperience'
 // import Footer from './components/common/footer/Footer'
-// import Header from './pages/header/Header'
 // import Navbar from './components/navbar/Navbar'
 import Portfolio from './components/portfolio/Portfolio'
 // import Testimonials from './components/testimonials/Testimonials'
@@ -25,7 +22,6 @@ const App = () => {
         <Route path='/portfolio' element={<Portfolio />}/>
         <Route path='/workExperience' element={<WorkExperience />}/>
         {/* <Route path='/about' element={<About/>}/> */}
-        {/* <Route path='/experience' element={<Experience/>}/> */}
       </Routes>
        {/* <Navbar /> */}
        {/* <Footer /> */}

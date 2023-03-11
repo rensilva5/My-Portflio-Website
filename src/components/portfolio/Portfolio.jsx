@@ -7,6 +7,7 @@ import img4 from "../../assets/portfolio4.png";
 import img7 from "../../assets/portfolio7.png";
 import img5 from "../../assets/portfolio5.png";
 import img6 from "../../assets/portfolio6.png";
+// import { Card } from "@mui/material";
 
 const data = [
   {
@@ -83,7 +84,11 @@ const Portfolio = () => {
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+                {/* <Card className="descriptionText"> */}
+
                 <h5>{description}</h5>
+            
+                {/* </Card> */}
                 <div className="portfolio_item-cta">
                   <a href={github} className="btn" target="_blank" rel="noopener noreferrer" aria-label={`View ${title} source code on Github`}>
                     Github

@@ -3,9 +3,9 @@ import "./header.css";
 import Cta from "./Cta";
 // import mephoto from '../../assets/me.png'
 // import mephoto from '../../assets/mephotoME.jpg'
-import mephoto from "../../assets/egypt.jpeg";
+// import mephoto from "../../assets/egypt.jpeg";
 import HeaderSocials from "./HeaderSocials";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
+// import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 const Header = () => {
   return (

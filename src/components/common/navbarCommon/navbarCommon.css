@@ -29,6 +29,7 @@
     /* Optional color as well */
     /* background-color: white;  */
     /* text-align: center; */
+    z-index: 1;
 }
 
 .navbarCommon a {
