@@ -5,6 +5,8 @@ import { BsFacebook } from 'react-icons/bs'
 // import { FiInstagram } from 'react-icons/fi'
 // import { GrTwitter } from 'react-icons/gr'
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer>
@@ -27,9 +29,8 @@ const Footer = () => {
         {/* twitter / I don't have twitter, but the link will be ready below. */}
         {/* <a href="https://twitter.com" target='_blank'><GrTwitter/></a> */}
       </div>
-
       <div className="footer_copyright">
-        <small>&copy; Created by Renzo Silva. All the rights reserved.</small>
+        <small>&copy; {currentYear} Created by Renzo Silva. All the rights reserved.</small>
       </div>
 
     </footer>

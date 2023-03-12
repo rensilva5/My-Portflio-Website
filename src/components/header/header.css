@@ -75,11 +75,12 @@ header {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/egypt.jpeg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/egypt.jpeg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/pexels-christina-morillo-1181271.jpg);
   
     /* Set a specific height */
     height: 60%;
-    border-radius: 80% 80% 80% 80%;
+    border-radius: 80% 80% 0 0;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -121,3 +122,30 @@ header {
     }
 
 }
+
+.span {
+    animation-fill-mode: forwards;
+  }
+  /* header.css */
+.hero-text h1 {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .hero-text h5 {
+    animation: slideIn 1s ease-in-out 0.5s;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(20%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
