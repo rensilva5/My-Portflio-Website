@@ -1,4 +1,3 @@
-// Pending Twitter and Instagram account
 import React from 'react'
 import './footer.css'
 import { BsFacebook } from 'react-icons/bs'
@@ -14,7 +13,7 @@ const Footer = () => {
 
       <ul className='links'>
         <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about-me-section">About</a></li>
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
         {/* <li><a href="#portfolio">Portfolio</a></li> */}
@@ -23,7 +22,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://facebook.com" target='_blank'><BsFacebook/></a>
+        <a href="https://facebook.com" target='_blank' rel="noopener noreferrer" aria-label="Facebook"><BsFacebook/></a>
         {/* instagram / I don't have instagram, but the link will be ready. */}
         {/* <a href="https://instagram.com" target='_blank'><FiInstagram/></a> */}
         {/* twitter / I don't have twitter, but the link will be ready below. */}
