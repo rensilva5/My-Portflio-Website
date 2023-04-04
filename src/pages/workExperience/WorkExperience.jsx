@@ -15,7 +15,7 @@ const WorkExperience = () => {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Jan to March 2023"
+          date={<span style={{ color: "#1e386c" }}>Jan to March 2023</span>}
           iconStyle={{ background: "#1e386c", color: "rgba(255, 255, 255, 0.648)" }}
           icon={<MdWork />}
           >
