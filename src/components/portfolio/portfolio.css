@@ -39,6 +39,15 @@
     /* align-items: center; */
 }
 
+.description_container {
+    height: 150px;
+    overflow-y: scroll;
+  }
+  
+  .description_text {
+    margin: 0;
+  }
+
 /* Media queries (Medium devices) */
 
 @media screen and (max-width: 1024px) {
@@ -56,11 +65,3 @@
     }
 }
 
-.descriptionText {
-    word-wrap: break-word;
-    height: auto;
-    max-height: 400px;
-    width: 100%;
-    overflow: hidden;
-    overflow-y: auto;
-}
