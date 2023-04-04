@@ -15,7 +15,7 @@ const WorkExperience = () => {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date={<span style={{ color: "#1e386c" }}>Jan to March 2023</span>}
+          date={<span style={{ color: "var(--color-primary)" }}>Jan to March 2023</span>}
           iconStyle={{ background: "#1e386c", color: "rgba(255, 255, 255, 0.648)" }}
           icon={<MdWork />}
           >
@@ -24,7 +24,7 @@ const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Jan 2023 to Present"
+          date={<span style={{ color: "var(--color-primary)" }}>Jan 2023 to Present</span>}
           iconStyle={{ background: "#1e386c", color: "rgba(255, 255, 255, 0.648)" }}
           icon={<MdWork />}
           >
@@ -33,7 +33,7 @@ const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Summer 2022"
+          date={<span style={{ color: "var(--color-primary)" }}>Summer 2022</span>}
           iconStyle={{ background: "#1e386c", color: "lightblue" }}
           icon={<FaGraduationCap />}
           >
@@ -42,7 +42,7 @@ const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2018 - 2021"
+          date={<span style={{ color: "var(--color-primary)" }}>August 2018 - May 2021</span>}
           iconStyle={{ background: "#1e386c", color: "lightblue" }}
           icon={<FaGraduationCap />}
           >
@@ -51,7 +51,7 @@ const WorkExperience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2019 2020"
+          date={<span style={{ color: "var(--color-primary)" }}>August 2019 - March 2020</span>}
           iconStyle={{ background: "#1e386c", color: "rgba(255, 255, 255, 0.648)" }}
           icon={<MdWork />}
           >
