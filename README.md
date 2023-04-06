@@ -8,14 +8,11 @@ Create project by typing (npx create-react-app   nameOfTheProject) enter.
 * Node.js
 * Cors
 
-[See MongoDB](https://www.mongodb.com/)
-
 [See Express](https://expressjs.com/)
 
-[See Express](https://firebase.google.com/)
+[See Firebase](https://firebase.google.com/)
 
 ![My Image](././src/assets/readMe.png)
-
 
 ## Process
 
