@@ -1,4 +1,4 @@
-# Getting Started with Creating React App
+# `Getting Started with Creating React App`
 
 Create project by typing (npx create-react-app   nameOfTheProject) enter.
 
@@ -35,35 +35,35 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 3. Use and type (rafce) from (snippets) to create the layout per file or component and quicker typing.
 
-## Navbar.
-1. We will create a floting NavBar mainly using css.
+### Navbar.
+* We will create a floting NavBar mainly using css.
 
-## Header.
-1. This component hold an image, scrowl down  icon, social links with icons.
-2. It will contain two buttons to downloand a CV and link to contact.
+### Header.
+* This component hold an image, scrowl down  icon, social links with icons.
+* It will contain two buttons to downloand a CV and link to contact.
 
-##  About
-1. Add Image
-2. Create Experience, clients,  projects cards, and a link them to contact.
+###  About
+* Add Image
+* Create Experience, clients,  projects cards, and a link them to contact.
 
-## My Experience
-1. Three cards that contain frontEnd, backEnd, and languages' skills.
-2. It'll be responsive by addind media query in css.
+### My Experience
+* Three cards that contain frontEnd, backEnd, and languages' skills.
+* It'll be responsive by addind media query in css.
 
-## Portfolio
-1. Different cards with project, and every card has images that will fetching from my database. Each card will have two button that will take us to gitHub and a demo that will be open in a new browser.
+### Portfolio
+* Different cards with project, and every card has images that will fetching from my database. Each card will have two button that will take us to gitHub and a demo that will be open in a new browser.
 
-## Contact
-1. Links to conctat me direct with interaction, inputs and instant message to my WhatsApp and personal gmail, and even facebook. 
+### Contact
+* Links to conctat me direct with interaction, inputs and instant message to my WhatsApp and personal gmail, and even facebook. 
 
-## Navbar
-1. It will have links to my different components using id's. Links to my socials using icons from react-icons.
-2. Add copy rights, and make sure to code, so it updates automatically.
+### Navbar
+* It will have links to my different components using id's. Links to my socials using icons from react-icons.
+* Add copy rights, and make sure to code, so it updates automatically.
 
-## Commun Navbar
+### Commun Navbar
 We will also add a commun navbar to navigate acrros pages, and it will be on al the pages as well.
 
-## Available Scripts
+## `Available Scripts`
 
 In the project directory, you can run:
 
@@ -82,4 +82,5 @@ I also used react icons to display pages more beautifully.
 The final projet will be depolyed using Vercel.com
 
 ## Demo
-renzosilva.dev
+[Renzo Portfolio Website](https://renzosilva.dev)
+
