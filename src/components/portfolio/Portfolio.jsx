@@ -4,9 +4,11 @@ import img1 from "../../assets/portfolio1.png";
 import img2 from "../../assets/portfolio2.png";
 import img3 from "../../assets/portfolio3.png";
 import img4 from "../../assets/portfolio4.png";
-import img7 from "../../assets/portfolio7.png";
 import img5 from "../../assets/portfolio5.png";
 import img6 from "../../assets/portfolio6.png";
+import img7 from "../../assets/portfolio7.png";
+// import img8 from "../../assets/portfolio8.png";
+import img9 from "../../assets/portfolio9.png";
 // import { Card } from "@mui/material";
 
 const data = [
@@ -36,6 +38,15 @@ const data = [
       "A Europe trip planner is a practical tool that helps travelers plan their itinerary for a trip to Europe. It typically includes features such as destination recommendations.",
     github: "https://github.com/rensilva5/front-end-your-o-planner",
     demo: "https://your-o-planner.web.app/",
+  },
+  {
+    id: 9,
+    image: img9,
+    title: "Photo Intagram",
+    description:
+      "This software application is designed to post pictues by downloanding on them using bottons in react, so the app alows us to exchange memories; this project uses javascript, and firebase database as database. The TravelGram app uses react functionally.",
+    github: "https://github.com/rensilva5/Colomgram",
+    demo: "https://travelgram-rensilva5.vercel.app/",
   },
   {
     id: 3,
