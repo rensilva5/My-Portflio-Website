@@ -42,7 +42,7 @@ const data = [
   {
     id: 9,
     image: img9,
-    title: "Photo Intagram",
+    title: "Photo Instagram",
     description:
       "This software application is designed to post pictues by downloanding on them using bottons in react, so the app alows us to exchange memories; this project uses javascript, and firebase database as database. The TravelGram app uses react functionally.",
     github: "https://github.com/rensilva5/Colomgram",

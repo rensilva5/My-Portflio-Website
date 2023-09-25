@@ -33,7 +33,7 @@ const NavbarCommon = () => {
         {/* </Link> */}
         <Link to="/portfolio" className="link">
           {/* <FaCode /> */}
-        <h4>Projects</h4>
+        {/* <h4>Projects</h4> */}
         </Link>
         <Link to="/workExperience" className="link">
           {/* <FaCode /> */}
