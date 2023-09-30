@@ -1,153 +1,152 @@
 header {
-    height: 125vh;
-    padding-top: 7rem;
-    padding-bottom: 0.5rem;
-    overflow: hidden;
+  height: 125vh;
+  padding-top: 7rem;
+  padding-bottom: 0.5rem;
+  overflow: hidden;
 }
 
 .header_container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
- /* Addind style on Cta */
- 
- .cta {
-     margin-top: 2rem;
-     display: flex;
-     gap: 1.2rem;
-     justify-content: center;
-     margin-bottom: 2.5rem;
-    }
-    
+/* Addind style on Cta */
+
+.cta {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
 /* Adding style on Socials on header */
 
 .header_socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-    font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: fixed;
+  left: 40px;
+  bottom: 3rem;
+  font-size: 1.2rem;
 }
 
 .header_socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
 /* Addind style on my header photo */
 
 .me {
-    /* background: var(--color-primary); */
-    /* background: linear-gradient(var(--color-primary), transparent); */
-    width: 18rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 9rem);
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-    margin-top: 1rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 4rem 1.5rem 1.5rem 1.5rem;
+  /* background: var(--color-primary); */
+  /* background: linear-gradient(var(--color-primary), transparent); */
+  width: 18rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 9rem);
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  margin-top: 1rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
 
 .me_pic {
-    border-radius: 12rem 12rem 0 0;
-    
+  border-radius: 12rem 12rem 0 0;
 }
 
 /* Scroll down line */
 .scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.2rem;
+  position: fixed;
+  right: -0.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/egypt.jpeg); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/HeadShot.png); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/pexels-christina-morillo-1181271.jpg);
-  
-    /* Set a specific height */
-    height: 60%;
-    border-radius: 90% 90% 0 0;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 8rem 8rem;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/egypt.jpeg); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/assets/HeadShot.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/src/assets/pexels-christina-morillo-1181271.jpg);
+
+  /* Set a specific height */
+  height: 95%;
+  border-radius: 1% 1% 5% 5%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 1.5rem 1.5rem;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
 /* Media queries (Medium devices) */
 @media screen and (max-width: 1024px) {
-    header {
-        height: 122vh;
-    }
-    .hero-image {
-        border-radius: 50% 50% 0 0;
-        margin: 8rem 8rem;
-    }
+  header {
+    height: 122vh;
+  }
+  .hero-image {
+    /* border-radius: 10% 10% 40% 40%; */
+    margin: 3rem 3rem;
+    height: inherit;
+  }
 }
 
 /* Media queries (Small devices) */
 @media screen and (max-width: 600px) {
-    header {
-        height: 120vh;
-    }
-    .header_socials, .scroll_down {
-        display: none;
-    }
-    .hero-image {
-        border-radius: 90% 90% 0 0;
-        margin: 8rem 8rem;
-    }
-
+  header {
+    height: 120vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+  .hero-image {
+    border-radius: 60% 60% 0 0;
+    margin: 4rem 4rem;
+  }
 }
 
 .span {
-    animation-fill-mode: forwards;
-  }
-  /* header.css */
+  animation-fill-mode: forwards;
+}
+/* header.css */
 .hero-text h1 {
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation: slideIn 1s ease-in-out;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation: slideIn 1s ease-in-out;
+}
+
+.hero-text h5 {
+  animation: slideIn 1s ease-in-out 0.5s;
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
   }
-  
-  .hero-text h5 {
-    animation: slideIn 1s ease-in-out 0.5s;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  @keyframes slideIn {
-    from {
-      transform: translateY(20%);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  
+}

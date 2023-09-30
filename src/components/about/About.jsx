@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import canterburyImage from "../../assets/canterbury.jpeg";
+// import canterburyImage from "../../assets/HeadShot.png";
 // import ME from "../../assets/me-aboutME.jpg";
 import { BsAward } from "react-icons/bs";
 import { FaUsers } from "react-icons/fa";
